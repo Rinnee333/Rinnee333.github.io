@@ -1,0 +1,75 @@
+.MainTitle{
+    text-align: center;
+    font-size: 50px;
+}
+
+.sideText{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.CenteredImage{
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.sideTitle{
+    font-size: 35px;
+    margin-left: 10%;
+}
+
+.MiddleTitle{
+    font-size: 35px;
+    margin-left: 50%;
+}
+
+.MiddleText{
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+
+.SideRightText{
+    font-size: 35px;
+    margin-left: 5%;
+}
+
+.row {
+    display: flex;
+    
+}
+
+
+.firstColumn{
+    width: 20%;
+    background-color:crimson;
+    flex: 20%;
+}
+
+.secondcolumn {
+    flex: 30%;
+    width: 40%;
+    background-color:white;
+}
+
+.tirthcolumn {
+    flex: 40%;
+    background-color:white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
